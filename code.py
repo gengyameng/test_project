@@ -5,3 +5,6 @@ def index(request):
 
 def index2(request):
     return HttpResponse('<h1>首页2</h1>')
+
+def index3(request):
+    return HttpResponse('<h1>首页3</h1>')
